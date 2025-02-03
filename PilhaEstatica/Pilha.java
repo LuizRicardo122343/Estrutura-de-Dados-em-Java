@@ -13,17 +13,14 @@ public class Pilha {
         topo = -1;
     } 
         //Operações (Métodos) ..
-
     public boolean isEmpty(){
         //Retorna true se o topo da pilha estiver vazio
-        return (topo == -1);
+        return topo == -1;
     }
-
     public boolean isFull(){
         //Retorna true se o topo da pilha estiver cheio
-        return (topo == (vetor.length - 1));
+        return (topo == vetor.length - 1);
         }
-
     public void push(int valor){
         //insere um elemento no topo da pilha
         if(isFull() == false){
@@ -31,7 +28,6 @@ public class Pilha {
             vetor[topo] = valor;
         }
     }
-
     public int pop(){
         //remove um elemento do topo da pilha
         if(isEmpty() == false){

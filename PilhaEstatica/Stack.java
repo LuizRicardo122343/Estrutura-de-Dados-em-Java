@@ -39,6 +39,5 @@ public class Stack {
     cl.push(9);//[2]
     cl.push(1);//[3]
     System.out.println("Verificar se a pilha está vazia " + cl.isEmpty());
-
     }
 }
